@@ -1,0 +1,57 @@
+# Bellabeat Case Study: Smart Device Usage Analysis
+
+## 1. Ask: Defining the Business Problem
+
+### Business Task:
+Bellabeat, a high-tech manufacturer of health-focused products for women, wants to analyze smart device fitness data to unlock growth opportunities. The key objectives are:
+- Identify trends in smart device usage.
+- Understand how these trends apply to Bellabeat customers.
+- Provide marketing recommendations based on data insights.
+
+### Stakeholders:
+- Urška Sršen: Cofounder & Chief Creative Officer
+- Sando Mur: Cofounder & Mathematician
+- Bellabeat Marketing Analytics Team
+
+## 2. Prepare: Data Collection
+
+### Data Source:
+- **FitBit Fitness Tracker Data** (Public Domain, Kaggle dataset by Mobius)
+- Contains fitness tracker data from **30 Fitbit users**.
+- Includes **daily activity, steps, heart rate, and sleep monitoring**.
+
+### Limitations:
+- Small sample size (30 users).
+- Potential demographic bias.
+- Lacks user segmentation by age, gender, or device type.
+
+## 3. Process: Data Cleaning & Preparation
+
+### Steps Taken:
+1. **Loaded dataset** into Python using Pandas.
+2. **Checked for missing values** and inconsistencies.
+3. **Converted date columns** to datetime format.
+4. **Created new features**, such as activity intensity & total minutes.
+5. **Filtered data for relevant variables** (steps, calories, activity, sleep).
+
+## 4. Analyze: Identifying Key Trends
+
+### Key Findings:
+- **Activity vs. Calories Burned:** Users who take more steps burn more calories, indicating a strong correlation.
+- **Usage Patterns by Day:** Activity levels peak on weekdays, with lower engagement during weekends.
+- **Sleep Patterns:** Users averaging **7-8 hours of sleep** tend to have better activity consistency.
+- **Sedentary Behavior:** A significant portion of time (over 60%) is spent in sedentary activity.
+
+
+### Marketing Strategy Insights:
+1. **Target High-Engagement Days:** Focus ads & promotions on **weekdays** when users are more active.
+2. **Encourage Active Lifestyles:** Create **challenges & incentives** for users with sedentary habits.
+3. **Leverage Sleep Data:** Promote Bellabeat’s sleep-tracking features to encourage better habits.
+4. **Personalized Notifications:** Use AI-driven insights to remind users to move after long sedentary periods.
+5. **Social Media Campaigns:** Highlight real-life transformations using Bellabeat devices.
+
+## Conclusion:
+The analysis reveals strong engagement trends, with clear opportunities for Bellabeat to enhance its marketing strategy. By focusing on active days, promoting movement incentives, and leveraging personalized insights, Bellabeat can improve customer engagement and brand positioning.
+
+---
+
